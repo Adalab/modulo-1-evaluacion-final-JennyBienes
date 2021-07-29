@@ -23,7 +23,7 @@
 
 .menu__img {
   width: 16px;
-  height: 14px; 
+  height: 16px; 
   background-color: $background-color; 
 }
 
@@ -59,3 +59,109 @@
    margin-top:10px;
    text-align: center;
 } 
+
+
+.main__section{
+width: 100 vh;
+background-color: #fff;
+
+}
+.main__article{
+    font-family: $font-paragraph;
+    font-weight: 400;
+    font-size: 16px;
+    color:#fff;
+    margin-top:10px;
+    text-align: center;
+ }
+ 
+.main__title {
+    font-family: $font-paragraph;
+    font-weight: 700;
+    font-size: 24px;
+    color:#000;
+    margin-top:10px;
+    margin-left: 15px;
+    text-align: left;
+ } 
+ 
+.main__paragraph{
+    font-family: $font-paragraph;
+    font-weight: 400;
+    font-size: 18px;
+    color:#000;
+    margin:15px 25px 15px 15px;
+    text-align: justify;
+ }  
+
+ .main__small{
+    font-family: $font-paragraph;
+    font-weight: 400;
+    font-size: 14px;
+    color:#8ccbea;
+    margin-top:10px;
+    margin-left:20px;
+    text-align: left;  
+ }  
+
+.main__section--title{
+    font-family: $font-paragraph;
+    font-weight: 700;
+    font-size: 24px;
+    color:#000;
+    margin-top:10px;
+    text-align: center;
+ }  
+
+ .main__section--subtitle1 {
+    font-family: $font-paragraph;
+    font-weight: 800;
+    font-size: 18px;
+    color:#000;
+    margin-top:10px;
+    text-align: center;
+ }  
+ .main__section--paragraph1 {
+    font-family: $font-paragraph;
+    font-weight: 400;
+    font-size: 18px;
+    color:#000;
+    margin-top:10px;
+    text-align: center;
+ }  
+
+ .main__section--subtitle2 {
+    font-family: $font-paragraph;
+    font-weight: 800;
+    font-size: 18px;
+    color:#000;
+    margin-top:10px;
+    text-align: center;
+ }  
+
+ .main__section--paragraph2 {
+    font-family: $font-paragraph;
+    font-weight: 400;
+    font-size: 18px;
+    color:#000;
+    margin-top:10px;
+    text-align: center;
+ }  
+
+ .main__section--subtitle3 {
+    font-family: $font-paragraph;
+    font-weight: 800;
+    font-size: 18px;
+    color:#000;
+    margin-top:10px;
+    text-align: center;
+ }  
+
+ .main__section--paragraph3 {
+    font-family: $font-paragraph;
+    font-weight: 400;
+    font-size: 18px;
+    color:#000;
+    margin-top:10px;
+    text-align: center;
+ }  
