@@ -1,5 +1,5 @@
 .header__background {
-  background: url("../../../docs/assets/images/cover.jpg") no-repeat center;
+  background: url("../../../assets/images/cover.jpg") no-repeat center;
   background-size: cover;
   height: 100vh;
   width: 100vw;
@@ -41,7 +41,6 @@
   width: 290px;
   height: 110px;
   margin: 240px 0 10px 15px;
-  background-color: $background-color;
   font-size: 42px;
   font-weight: bold;
   font-stretch: normal;
@@ -58,4 +57,5 @@
    font-size: 16px;
    color:#fff;
    margin-top:10px;
+   text-align: center;
 } 
