@@ -227,29 +227,55 @@ table {
   font-size: 18px;
   color: #4a4a4a; }
 
-.form__input--go {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  color: #f26002;
-  border: 2px solid #f26002;
-  padding: 8px 20px;
+.main__button--go {
+  background: #ffff;
+  border: 2px solid #ffff;
+  cursor: pointer;
   border-radius: 30px;
-  background-color: #ffff; }
+  position: relative; }
 
-.form__input--go:hover {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+.main__button--go::before {
+  content: "Go";
+  padding: 8px 20px;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: #f26002;
+  position: absolute;
   border: 2px solid #f26002;
-  padding: 8px 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate 50%, 50% scale 0;
   border-radius: 30px;
-  background-color: #ffff;
-  transition-property: background-color,color;
-  transition-duration: 1s,1s;
-  transition-timing-function: ease,ease;
-  transition-delay: 0s,0s; }
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s; }
+
+.main__button--go::after {
+  content: "Go";
+  padding: 8px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  position: absolute;
+  color: #ffff;
+  top: 50%;
+  left: 50%;
+  border: 2px solid #f26002;
+  border-radius: 30px;
+  background-color: #f26002;
+  transform: translate -50%, -50% scale 0;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  opacity: 0; }
+
+.main__button--go:hover::before {
+  transform: translate -50%, -50% scale 3;
+  opacity: 0; }
+
+.main__button--go:hover::after {
+  transform: translate -50%, -50% scale 1;
+  opacity: 1; }
 
 .main__section--title {
   font-family: "Roboto", sans-serif;
