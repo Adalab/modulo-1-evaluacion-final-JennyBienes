@@ -122,12 +122,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.code {
-  font-size: 16px;
-  background: #d8d8d8;
-  padding: 0 5px;
-  border-radius: 5px; }
-
 .header__background {
   background: url("../../../assets/images/cover.jpg") no-repeat center;
   background-size: cover;
@@ -177,7 +171,7 @@ table {
   color: #ffffff; }
 
 .header__subtitle {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
@@ -189,7 +183,7 @@ table {
   background-color: #fff; }
 
 .main__article {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
@@ -197,7 +191,7 @@ table {
   text-align: center; }
 
 .main__title {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
   color: #000;
@@ -206,7 +200,7 @@ table {
   text-align: left; }
 
 .main__paragraph {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;
@@ -214,7 +208,7 @@ table {
   text-align: justify; }
 
 .main__small {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #8ccbea;
@@ -223,7 +217,7 @@ table {
   text-align: left; }
 
 .main__section--title {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
   color: #000;
@@ -231,7 +225,7 @@ table {
   text-align: center; }
 
 .main__section--subtitle1 {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 18px;
   color: #000;
@@ -239,7 +233,7 @@ table {
   text-align: center; }
 
 .main__section--paragraph1 {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;
@@ -247,7 +241,7 @@ table {
   text-align: center; }
 
 .main__section--subtitle2 {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 18px;
   color: #000;
@@ -255,7 +249,7 @@ table {
   text-align: center; }
 
 .main__section--paragraph2 {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;
@@ -263,7 +257,7 @@ table {
   text-align: center; }
 
 .main__section--subtitle3 {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 18px;
   color: #000;
@@ -271,11 +265,50 @@ table {
   text-align: center; }
 
 .main__section--paragraph3 {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;
   margin-top: 10px;
   text-align: center; }
+
+.main__small {
+  width: 90px;
+  height: 30px;
+  margin: 0 200px 1px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8ccbea;
+  line-height: 30px; }
+
+.main__title {
+  width: 290px;
+  height: 60px;
+  margin: 1px 0 15px;
+  font-family: "RobotoSlab-Bold";
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+  line-height: 30px; }
+
+.main__paragraph {
+  width: 290px;
+  height: 120px;
+  font-weight: 400;
+  margin: 15px 0 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #4a4a4a; }
+
+.form__input--go {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #f26002;
+  border: 2px solid #f26002;
+  padding: 8px 20px;
+  border-radius: 30px;
+  background-color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
