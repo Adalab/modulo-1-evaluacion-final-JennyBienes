@@ -402,7 +402,7 @@ table {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  left: 25%; }
+  left: 25vw; }
 
 .main__button--more-reasons::before {
   content: "More reasons";
@@ -454,23 +454,37 @@ table {
   padding: 0 0 0 0;
   line-height: 0;
   font-size: 0;
-  vertical-align: top / middle / bottom;
-  margin-top: -25 px;
-  margin-bottom: -25 px; }
+  display: inline;
+  margin-top: -20px; }
 
 .footer__buttom {
   border-radius: 50%;
   background-color: #fff;
   border: 0.5px;
   box-shadow: 0 2px 4px 0 black;
-  position: relative;
-  display: inline-block;
-  padding: 12px  12px 8px 12px;
-  left: 42%;
+  position: absolute;
+  padding: 12px 12px 8px 12px;
+  left: 46vw;
   line-height: 0;
   font-size: 0;
-  vertical-align: top / middle / bottom;
-  margin-top: -25 px;
-  margin-bottom: -25 px; }
+  margin-top: -20px;
+  -webkit-animation: jump 0.7s ease 1s infinite alternate;
+  animation: jump 0.7s ease 1s infinite alternate; }
+
+@-webkit-keyframes jump {
+  0% {
+    transform: scale(1.1, 0.9); }
+  50% {
+    transform: scale(0.9, 1.1) translateY(-8px); }
+  70% {
+    transform: scale(1); } }
+
+@keyframes jump {
+  0% {
+    transform: scale(1.1, 0.9); }
+  50% {
+    transform: scale(0.9, 1.1) translateY(-8px); }
+  70% {
+    transform: scale(1); } }
 
 /*# sourceMappingURL=main.css.map */
