@@ -157,7 +157,7 @@ table {
   background-color: #ffffff; }
 
 .header__title {
-  font-family: "RobotoSlab-Bold";
+  font-family: 'RobotoSlab-Bold';
   width: 290px;
   height: 110px;
   margin: 240px 0 10px 0px;
@@ -171,7 +171,7 @@ table {
   color: #ffffff; }
 
 .header__subtitle {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
@@ -227,7 +227,7 @@ table {
   width: 90px;
   height: 30px;
   margin: 0 200px 1px 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #8ccbea;
@@ -237,7 +237,7 @@ table {
   width: 290px;
   height: 60px;
   margin: 1px 0 15px;
-  font-family: "RobotoSlab-Bold";
+  font-family: 'RobotoSlab-Bold';
   font-weight: 700;
   font-size: 24px;
   color: #000;
@@ -248,7 +248,7 @@ table {
   height: 120px;
   font-weight: 400;
   margin: 15px 0 5px 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #4a4a4a; }
 
@@ -304,22 +304,37 @@ table {
 
 .main__section {
   width: 100%;
-  height: 300px;
-  margin: 0 0px;
+  height: 624px;
+  margin: 376 0px;
   padding-top: 30px;
-  padding-bottom: 5px;
+  padding-bottom: 60px;
   background-color: #eff9ff; }
 
+.main__section--grid {
+  display: grid;
+  grid-template-columns: 180px;
+  grid-template-rows: 156px 156px 156px;
+  align-items: center;
+  justify-content: center; }
+
 .main__section--title {
-  font-family: "Roboto", sans-serif;
+  font-family: 'RobotoSlab-Bold';
   font-weight: 700;
   font-size: 24px;
   color: #000;
   margin-top: 10px;
+  margin-bottom: 45px;
+  text-align: center;
+  white-space: nowrap;
+  margin-left: 0; }
+
+.main__article--container {
+  box-sizing: border-box;
+  display: block;
   text-align: center; }
 
 .main__section--subtitle1 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'RobotoSlab-Bold';
   font-weight: 800;
   font-size: 18px;
   color: #000;
@@ -327,7 +342,7 @@ table {
   text-align: center; }
 
 .main__section--paragraph1 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;
@@ -335,7 +350,7 @@ table {
   text-align: center; }
 
 .main__section--subtitle2 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'RobotoSlab-Bold';
   font-weight: 800;
   font-size: 18px;
   color: #000;
@@ -343,7 +358,7 @@ table {
   text-align: center; }
 
 .main__section--paragraph2 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;
@@ -351,7 +366,7 @@ table {
   text-align: center; }
 
 .main__section--subtitle3 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'RobotoSlab-Bold';
   font-weight: 800;
   font-size: 18px;
   color: #000;
@@ -359,7 +374,7 @@ table {
   text-align: center; }
 
 .main__section--paragraph3 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;
@@ -374,12 +389,12 @@ table {
   position: center; }
 
 .main__button--more-reasons::before {
-  content: "More Reasons";
+  content: "More reasons";
   position: center;
   padding: 10px 30px;
   margin-left: 100 px;
   background-color: #f26002;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: #ffff;
   position: absolute;
@@ -388,13 +403,14 @@ table {
   border-radius: 30px;
   transition-duration: 1s;
   transition-timing-function: ease;
-  transition-delay: 0s; }
+  transition-delay: 0s;
+  white-space: nowrap; }
 
 .main__button--more-reasons::after {
-  content: "More Reasons";
+  content: "More reasons";
   padding: 10px 30px;
   background-color: #ffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 20px;
   position: absolute;

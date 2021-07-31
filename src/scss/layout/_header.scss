@@ -24,7 +24,7 @@
 .menu__img {
   width: 16px;
   height: 16px; 
-  background-color: $background-color; 
+  background-color: #ffffff; 
 }
 
 .header__buttom {
@@ -33,11 +33,11 @@
   margin: 45px 122px 0 94px;
   padding: 18px 12px 15.3px 13px;
   border-radius: 22.5px;
-  background-color: $background-color;
+  background-color: #ffffff;
 }
 
 .header__title {
-  font-family: $font-title;
+  font-family: 'RobotoSlab-Bold';
   width: 290px;
   height: 110px;
   margin: 240px 0 10px 0px;
@@ -48,11 +48,11 @@
   line-height: 1.31;
   word-spacing: 100vw;
   text-align: center;
-  color: $background-color;
+  color: #ffffff;
 }
 
 .header__subtitle{
-   font-family: $font-paragraph;
+   font-family: 'Roboto', sans-serif;
    font-weight: 400;
    font-size: 16px;
    color:#fff;

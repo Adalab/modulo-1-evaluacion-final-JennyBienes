@@ -1,48 +1,47 @@
-.main__article{
+.main__article {
   width: 320px;
-  height: 376px; 
+  height: 376px;
   margin: 0 15px;
   padding-top: 30px;
   padding-bottom: 45px;
-  background-color: #ffffff;
-}
+  background-color: #ffffff; }
 
 .main__small {
   width: 90px;
-  height:30px;
+  height: 30px;
   margin: 0 200px 1px 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #8ccbea;
-  line-height: 30px;
-}
-.main__title{
+  line-height: 30px; }
+
+.main__title {
   width: 290px;
   height: 60px;
   margin: 1px 0 15px;
-  font-family:'RobotoSlab-Bold';
-  font-weight:700;
-  font-size:24px;
-  color:#000;
-  line-height:30px;
-}
-.main__paragraph{
+  font-family: 'RobotoSlab-Bold';
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+  line-height: 30px; }
+
+.main__paragraph {
   width: 290px;
-  height:120px;
-  font-weight:400;
+  height: 120px;
+  font-weight: 400;
   margin: 15px 0 5px 0;
-  font-family:'Roboto', sans-serif;
-  font-size:18px;
-  color:#4a4a4a;
-}
-.main__button--go{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #4a4a4a; }
+
+.main__button--go {
   background: #ffff;
   border: 2px solid #ffff;
   cursor: pointer;
   border-radius: 30px;
-  position: relative;
-}
+  position: relative; }
+
 .main__button--go::before {
   content: "Go";
   padding: 8px 20px;
@@ -51,41 +50,39 @@
   color: #f26002;
   position: absolute;
   border: 2px solid #f26002;
-  top:50%;
-  left:50%;
-  transform: translate (50%, 50%) scale (0);
+  top: 50%;
+  left: 50%;
+  transform: translate 50%, 50% scale 0;
   border-radius: 30px;
   transition-duration: 1s;
-  transition-timing-function:ease;
-  transition-delay: 0s;
-}
+  transition-timing-function: ease;
+  transition-delay: 0s; }
 
-.main__button--go::after{
+.main__button--go::after {
   content: "Go";
   padding: 8px 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 20px;
-  position: absolute; 
+  position: absolute;
   color: #ffff;
   top: 50%;
   left: 50%;
   border: 2px solid #f26002;
   border-radius: 30px;
   background-color: #f26002;
-  transform: translate (-50%, -50%) scale (0);
+  transform: translate -50%, -50% scale 0;
   transition-duration: 1s;
-  transition-timing-function:ease;
+  transition-timing-function: ease;
   transition-delay: 0s;
-  opacity: 0;
-}
+  opacity: 0; }
 
-.main__button--go:hover::before{
-  transform: translate (-50%, -50%) scale (3);
-  opacity: 0;
-}
+.main__button--go:hover::before {
+  transform: translate -50%, -50% scale 3;
+  opacity: 0; }
 
-.main__button--go:hover::after{
-  transform: translate (-50%, -50%) scale (1);
-  opacity: 1;
-  }
+.main__button--go:hover::after {
+  transform: translate -50%, -50% scale 1;
+  opacity: 1; }
+
+/*# sourceMappingURL=primer-modulo.css.map */
