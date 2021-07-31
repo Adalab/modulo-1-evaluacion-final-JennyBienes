@@ -5,34 +5,35 @@
   padding-top: 30px;
   padding-bottom: 60px;
   background-color: rgb(239, 249, 255);
-  
+  align-items: center;
+  justify-content: center;
 }
-.main__section--grid{
-   display: grid;
-   grid-template-columns: 180px;
-   grid-template-rows: 156px 156px 156px;
-   align-items: center;
-   justify-content: center;
+.main__section--grid {
+  display: grid;
+  grid-template-columns: 180px;
+  grid-template-rows: 138px 138px 138px;
+  align-items: center;
+  justify-content: center;
 }
 .main__section--title {
-  font-family: 'RobotoSlab-Bold';
+  font-family: "RobotoSlab-Bold";
   font-weight: 700;
   font-size: 24px;
   color: #000;
   margin-top: 10px;
-  margin-bottom:45px;
+  margin-bottom: 45px;
   text-align: center;
   white-space: nowrap;
   margin-left: 0;
 }
-.main__article--container{
-   box-sizing: border-box;
-   display:block;
-   text-align:center;
+.main__article--container {
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
 }
 
-.main__section--subtitle1{
-  font-family: 'RobotoSlab-Bold';
+.main__section--subtitle1 {
+  font-family: "RobotoSlab-Bold";
   font-weight: 800;
   font-size: 18px;
   color: #000;
@@ -40,7 +41,7 @@
   text-align: center;
 }
 .main__section--paragraph1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;
@@ -49,7 +50,7 @@
 }
 
 .main__section--subtitle2 {
-  font-family: 'RobotoSlab-Bold';
+  font-family: "RobotoSlab-Bold";
   font-weight: 800;
   font-size: 18px;
   color: #000;
@@ -58,7 +59,7 @@
 }
 
 .main__section--paragraph2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;
@@ -67,7 +68,7 @@
 }
 
 .main__section--subtitle3 {
-  font-family:'RobotoSlab-Bold';
+  font-family: "RobotoSlab-Bold";
   font-weight: 800;
   font-size: 18px;
   color: #000;
@@ -76,7 +77,7 @@
 }
 
 .main__section--paragraph3 {
-  font-family:'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;
@@ -84,24 +85,28 @@
   text-align: center;
 }
 .main__button--more-reasons {
+  width: 0;
+  height: 0px ; 
+  border: rgb(239, 249, 255);
   background: rgb(239, 249, 255);
-  border: 2px solid rgb(239, 249, 255);
-  cursor: pointer;
-  border-radius: 30px;
-  position: center;
+  padding: 0 0 0 0;
+  cursor: pointer;  
+  margin-left: auto;
+  margin-right: auto;
+  position:relative; 
+  left: 25%;
 }
 .main__button--more-reasons::before {
   content: "More reasons";
-  position: center;
+  text-align: center;
   padding: 10px 30px;
-  margin-left: 100 px;
   background-color: #f26002;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  color: #ffff;
+  color: #ffff;  
   position: absolute;
   border: 2px solid #f26002;
-  transform: translate (50%, 50%) scale (0);
+  transform: translate (-50%, -50%) scale (0);
   border-radius: 30px;
   transition-duration: 1s;
   transition-timing-function: ease;
@@ -125,7 +130,8 @@
   transition-timing-function: ease;
   transition-delay: 0s;
   opacity: 0;
-}
+  white-space: nowrap;
+  }
 
 .main__button--more-reasons:hover::before {
   transform: translate (-50%, -50%) scale (3);
@@ -135,4 +141,31 @@
 .main__button--more-reasons:hover::after {
   transform: translate (-50%, -50%) scale (1);
   opacity: 1;
+}
+.footer__scroll {
+   width: 100vw;
+   height:0%;
+  transform: translate(0, -100px);
+  padding: 0 0 0 0;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: top / middle / bottom;
+  margin-top: -25 px;
+  margin-bottom: -25 px;
+  
+}
+.footer__buttom {
+  border-radius: 50%;
+  background-color: #fff;
+  border: 0.5px;
+  box-shadow: 0 2px 4px 0 black;
+  position: relative;
+  display:inline-block;
+  padding: 12px  12px 8px 12px;
+  left: 42%;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: top / middle / bottom;
+  margin-top: -25 px;  
+  margin-bottom: -25 px;
 }
