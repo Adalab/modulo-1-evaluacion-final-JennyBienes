@@ -49,6 +49,13 @@
   word-spacing: 100vw;
   text-align: center;
   color: #ffffff;
+  @media all and(min-width:768px){
+    font-size: 80px;
+    width:100%;
+    margin:340px 0 100px 39px;
+    
+  }
+  
 }
 
 .header__subtitle{
@@ -58,6 +65,11 @@
    color:#fff;
    margin-top:10px;
    text-align: center;
+   @media all and(min-width:768px){
+     font-size:24px;
+     width:100%;
+     margin:20px 165px 30px 160px;
+   }
 } 
 
 

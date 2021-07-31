@@ -4,9 +4,10 @@
   margin: 376 0px;
   padding-top: 30px;
   padding-bottom: 60px;
-  background-color: #eff9ff;
-  align-items: center;
-  justify-content: center; }
+  background-color: #eff9ff; }
+  @media all and (min-width: 768px) {
+    .main__section {
+      height: 397px; } }
 
 .main__section--grid {
   display: grid;
@@ -14,6 +15,13 @@
   grid-template-rows: 138px 138px 138px;
   align-items: center;
   justify-content: center; }
+  @media all and (min-width: 768px) {
+    .main__section--grid {
+      display: grid;
+      grid-template-columns: 180px 180px 180px;
+      grid-template-rows: 138px;
+      align-items: center;
+      justify-content: space-around; } }
 
 .main__section--title {
   font-family: "RobotoSlab-Bold";
@@ -24,91 +32,70 @@
   margin-bottom: 45px;
   text-align: center;
   white-space: nowrap;
-  margin-left: 0; }
+  margin-right: auto;
+  margin-left: auto; }
+  @media all and (min-width: 768px) {
+    .main__section--title {
+      width: 450px;
+      height: 45px;
+      font-size: 26px;
+      left: 50vw;
+      transform: translate -50%, 0%; } }
 
 .main__article--container {
   box-sizing: border-box;
   display: block;
   text-align: center; }
 
-.main__section--subtitle1 {
+.main__section--subtitle {
   font-family: "RobotoSlab-Bold";
   font-weight: 800;
   font-size: 18px;
   color: #000;
   margin-top: 10px;
   text-align: center; }
+  @media all and (min-width: 768px) {
+    .main__section--subtitle {
+      width: 210px;
+      height: 30px;
+      font-size: 24px; } }
 
-.main__section--paragraph1 {
+.main__section--paragraph {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;
   margin-top: 10px;
   text-align: center; }
-
-.main__section--subtitle2 {
-  font-family: "RobotoSlab-Bold";
-  font-weight: 800;
-  font-size: 18px;
-  color: #000;
-  margin-top: 10px;
-  text-align: center; }
-
-.main__section--paragraph2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  color: #000;
-  margin-top: 10px;
-  text-align: center; }
-
-.main__section--subtitle3 {
-  font-family: "RobotoSlab-Bold";
-  font-weight: 800;
-  font-size: 18px;
-  color: #000;
-  margin-top: 10px;
-  text-align: center; }
-
-.main__section--paragraph3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  color: #000;
-  margin-top: 10px;
-  text-align: center; }
+  @media all and (min-width: 768px) {
+    .main__section--paragraph {
+      width: 212.3px;
+      height: 68px;
+      font-size: 20px; } }
 
 .main__button--more-reasons {
-  width: 0;
-  height: 0px;
-  border: #eff9ff;
-  background: #eff9ff;
-  padding: 0 0 0 0;
-  cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  left: 25vw; }
-
-.main__button--more-reasons::before {
   content: "More reasons";
-  text-align: center;
   padding: 10px 30px;
   background-color: #f26002;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: #ffff;
   position: absolute;
+  margin-left: 25%;
   border: 2px solid #f26002;
-  transform: translate -50%, -50% scale 0;
   border-radius: 30px;
   transition-duration: 1s;
   transition-timing-function: ease;
   transition-delay: 0s;
   white-space: nowrap; }
+  @media all and (min-width: 1150px) {
+    .main__button--more-reasons {
+      margin-left: 50%; } }
+  @media all and (min-width: 768px) {
+    .main__button--more-reasons {
+      margin-left: 37%; } }
 
-.main__button--more-reasons::after {
+.main__button--more-reasons:hover {
   content: "More reasons";
   padding: 10px 30px;
   background-color: #ffff;
@@ -116,23 +103,20 @@
   font-weight: 400;
   font-size: 20px;
   position: absolute;
+  margin-left: 25%;
   color: #f26002;
   border: 2px solid #f26002;
   border-radius: 30px;
-  transform: translate -50%, -50% scale 0;
   transition-duration: 1s;
   transition-timing-function: ease;
   transition-delay: 0s;
-  opacity: 0;
   white-space: nowrap; }
-
-.main__button--more-reasons:hover::before {
-  transform: translate -50%, -50% scale 3;
-  opacity: 0; }
-
-.main__button--more-reasons:hover::after {
-  transform: translate -50%, -50% scale 1;
-  opacity: 1; }
+  @media all and (min-width: 768px) {
+    .main__button--more-reasons:hover {
+      margin-left: 37%; } }
+  @media all and (min-width: 1200px) {
+    .main__button--more-reasons:hover {
+      margin-left: 50%; } }
 
 .footer__scroll {
   width: 100vw;
