@@ -23,6 +23,7 @@
     justify-content: space-around;
   }
 }
+
 .main__section--title {
   font-family: "RobotoSlab-Bold";
   font-weight: 700;
@@ -41,7 +42,11 @@
     left: 50vw;
     transform: translate (-50%, 0%);
   }
+  @media all and(min-width: 1200px) {
+    font_size:32px;
 }
+}
+
 .main__article--container {
   box-sizing: border-box;
   display: block;
@@ -90,7 +95,7 @@
   transition-timing-function: ease;
   transition-delay: 0s;
   white-space: nowrap;
-  @media all and(min-width: 1150px) {
+  @media all and(min-width: 1200px) {
     margin-left: 50%;
   }
   @media all and(min-width: 768px) {

@@ -157,7 +157,7 @@ table {
   background-color: #ffffff; }
 
 .header__title {
-  font-family: 'RobotoSlab-Bold';
+  font-family: "RobotoSlab-Bold";
   width: 290px;
   height: 110px;
   margin: 240px 0 10px 0px;
@@ -174,9 +174,13 @@ table {
       font-size: 80px;
       width: 100%;
       margin: 340px 0 100px 39px; } }
+  @media all and (min-width: 1200px) {
+    .header__title {
+      font-size: 100px;
+      margin: 340px 0 0 231px; } }
 
 .header__subtitle {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
@@ -187,6 +191,10 @@ table {
       font-size: 24px;
       width: 100%;
       margin: 20px 165px 30px 160px; } }
+  @media all and (min-width: 1200px) {
+    .header__subtitle {
+      font-size: 24px;
+      margin: 604px 0 30 231px; } }
 
 .footer__background {
   width: 100%;
@@ -298,6 +306,12 @@ table {
   @media all and (min-width: 768px) {
     .main__small {
       margin-left: 39px; } }
+  @media all and (min-width: 1200px) {
+    .main__small {
+      margin-left: 275px;
+      margin-right: 645px;
+      margin-top: 60px;
+      margin-bottom: 270px; } }
 
 .main__title {
   width: 290px;
@@ -314,6 +328,12 @@ table {
       height: 45px;
       margin-left: 39px;
       margin-right: 39px; } }
+  @media all and (min-width: 1200px) {
+    .main__title {
+      margin-left: 275px;
+      margin-right: 275px;
+      margin-top: 90px;
+      margin-bottom: 225px; } }
 
 .main__paragraph {
   width: 290px;
@@ -332,6 +352,12 @@ table {
       margin-right: 39px;
       font-size: 20px;
       line-height: 30px; } }
+  @media all and (min-width: 1200px) {
+    .main__paragraph {
+      margin-left: 275px;
+      margin-right: 275px;
+      margin-top: 165px;
+      margin-bottom: 135px; } }
 
 .main__button--go {
   background: #ffff;
@@ -342,6 +368,12 @@ table {
   @media all and (min-width: 768px) {
     .main__button--go {
       margin-left: 30px; } }
+  @media all and (min-width: 1200px) {
+    .main__button--go {
+      margin-left: 275px;
+      margin-right: 845px;
+      margin-top: 255px;
+      margin-bottom: 60px; } }
 
 .main__button--go::before {
   content: "Go";
@@ -429,6 +461,9 @@ table {
       font-size: 26px;
       left: 50vw;
       transform: translate -50%, 0%; } }
+  @media all and (min-width: 1200px) {
+    .main__section--title {
+      font_size: 32px; } }
 
 .main__article--container {
   box-sizing: border-box;
@@ -476,7 +511,7 @@ table {
   transition-timing-function: ease;
   transition-delay: 0s;
   white-space: nowrap; }
-  @media all and (min-width: 1150px) {
+  @media all and (min-width: 1200px) {
     .main__button--more-reasons {
       margin-left: 50%; } }
   @media all and (min-width: 768px) {
