@@ -52,11 +52,12 @@
   @media all and(min-width:768px) {
     font-size: 80px;
     width: 100%;
-    margin: 340px 0 100px 39px;
+    margin: 340px 0 100px 0;
   }
   @media all and(min-width:1200px) {
     font-size: 100px;
-    margin: 340px 0 0 231px;
+    margin-top: 360px;
+    margin-bottom:150px;
   }
 }
 
@@ -70,10 +71,11 @@
   @media all and(min-width:768px) {
     font-size: 24px;
     width: 100%;
-    margin: 20px 165px 30px 160px;
+    margin: 20px 0 30px 0;
   }
   @media all and(min-width:1200px) {
     font-size: 24px;
-    margin: 604px 0 30 231px;
+    margin: 20px 0 30px 0;
+    width: 100%;
   }
 }

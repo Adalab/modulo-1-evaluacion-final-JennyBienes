@@ -1,14 +1,16 @@
 .main__article {
-  width: 320px;
+  width: 100vw;
   height: 376px;
-  margin: 0 15px;
+  margin: 0 0;
   padding-top: 30px;
   padding-bottom: 45px;
   background-color: #ffffff; }
   @media all and (min-width: 768px) {
     .main__article {
-      width: 768px;
       height: 330px; } }
+  @media all and (min-width: 1200px) {
+    .main__article {
+      height: 360px; } }
 
 .main__small {
   width: 90px;
@@ -18,16 +20,16 @@
   font-weight: 400;
   font-size: 14px;
   color: #8ccbea;
-  line-height: 30px; }
+  line-height: 30px;
+  margin-left: 30px; }
   @media all and (min-width: 768px) {
     .main__small {
-      margin-left: 39px; } }
+      margin-left: 39px;
+      margin-top: 30px; } }
   @media all and (min-width: 1200px) {
     .main__small {
       margin-left: 275px;
-      margin-right: 645px;
-      margin-top: 60px;
-      margin-bottom: 270px; } }
+      margin-top: 60px; } }
 
 .main__title {
   width: 290px;
@@ -37,19 +39,19 @@
   font-weight: 700;
   font-size: 24px;
   color: #000;
-  line-height: 30px; }
+  line-height: 30px;
+  margin-left: 30px; }
   @media all and (min-width: 768px) {
     .main__title {
       width: 690px;
       height: 45px;
       margin-left: 39px;
-      margin-right: 39px; } }
+      margin-right: 39px;
+      font-size: 26px; } }
   @media all and (min-width: 1200px) {
     .main__title {
       margin-left: 275px;
-      margin-right: 275px;
-      margin-top: 90px;
-      margin-bottom: 225px; } }
+      font-size: 32px; } }
 
 .main__paragraph {
   width: 290px;
@@ -59,7 +61,8 @@
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #4a4a4a;
-  line-height: 18px; }
+  line-height: 18px;
+  margin-left: 30px; }
   @media all and (min-width: 768px) {
     .main__paragraph {
       width: 690px;
@@ -70,26 +73,21 @@
       line-height: 30px; } }
   @media all and (min-width: 1200px) {
     .main__paragraph {
-      margin-left: 275px;
-      margin-right: 275px;
-      margin-top: 165px;
-      margin-bottom: 135px; } }
+      margin-left: 275px; } }
 
 .main__button--go {
   background: #ffff;
   border: 2px solid #ffff;
   cursor: pointer;
   border-radius: 30px;
-  position: relative; }
+  position: relative;
+  margin-left: 30px; }
   @media all and (min-width: 768px) {
     .main__button--go {
       margin-left: 30px; } }
   @media all and (min-width: 1200px) {
     .main__button--go {
-      margin-left: 275px;
-      margin-right: 845px;
-      margin-top: 255px;
-      margin-bottom: 60px; } }
+      margin-left: 275px; } }
 
 .main__button--go::before {
   content: "Go";
