@@ -79,9 +79,10 @@
   background: #ffff;
   border: 2px solid #ffff;
   cursor: pointer;
-  border-radius: 30px;
   position: relative;
-  margin-left: 30px; }
+  margin-left: 30px;
+  border-radius: 22.5px;
+  font-size: 20px; }
   @media all and (min-width: 768px) {
     .main__button--go {
       margin-left: 30px; } }
